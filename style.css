@@ -42,11 +42,10 @@ header {
 }
 
 .smoothies-image {
-    text-align: center; /* Center the placeholder text */
-    flex-grow: 1; /* Take up remaining vertical space */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    max-width: 100%; /* Image will not exceed its container width */
+    height: auto;     /* Maintain aspect ratio */
+    display: block;   /* Remove extra space below image */
+    margin: 0 auto;   /* Center the image horizontally within its container
 }
 
 .footer {
